@@ -7,7 +7,7 @@ application = robot.wsgi
 
 @robot.filter('a')
 def echo(message):
-	return u'你好'
+	return 'www.4g-cmcc.com'
 
 @robot.handler
 def echo(message):

@@ -7,4 +7,4 @@ robot = werobot.WeRoBot(token='abcdefghijklmn', enable_session=True)
 def echo(message):
     return 'Hello World!'
 
-robot.run()
+app = application = robot.wsgi
